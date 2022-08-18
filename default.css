@@ -1,0 +1,39 @@
+.background-image {
+  min-width: 102vw;
+  background-image: url("https://cdn.kqed.org/wp-content/uploads/sites/10/2018/03/RS17823_GettyImages-492682162-qut-1180x788.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  min-height: 102vh;
+  z-index: -99;
+  top: -5px;
+  left: -5px;
+  position: absolute;
+}
+
+body {
+  overflow: hidden;
+}
+
+.header {
+  text-align: center;
+}
+
+.img {
+  margin: 0 auto;
+  display: block;
+  padding: 10px;
+  color: #007bff;
+  background-color: #fff;
+  border: 1px solid #007bff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.description {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 50px;
+}
+
+
